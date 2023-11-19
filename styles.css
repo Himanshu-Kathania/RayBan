@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#back {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#top {
+  top: 0;
+  left: 0;
+  background-color: #000;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+}
+
+#working-area {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1920px;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+#nav-left,
+#nav-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#nav-left img {
+  height: 60px;
+}
+
+#nav a {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  font-weight: "gilroy";
+}
+
+#hero {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  justify-content: space-between;
+  display: flex;
+  /* height: 100px; */
+  width: 100%;
+  /* background-color: red; */
+}
+
+#heroleft {
+  min-width: 50%;
+  /* height: 100px; */
+  /* background-color: yellow; */
+}
+
+#heroright {
+  background-color: green;
+  min-width: 25%;
+}
+
+#heroleft .elem {
+  background-color: red;
+  font-size: 9vw;
+}
+
+#heroleft .elem h1 {
+  line-height: 0.9;
+  font-weight: 300;
+  font-family: kajiro;
+  color: #fff;
+  font-size: 11vw;
+}
